@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2024-10-28T13:54:09Z"
+          product-name="itrk_legaltexts_typo3">
+        <header/>
+        <body>
+            <trans-unit id="site.div.legalTexts">
+                <target>Rechtstexte</target>
+            </trans-unit>
+            <trans-unit id="site.itrkLegalTextStorage">
+                <target>Ordner Seiten-Id für die Rechtstexte</target>
+            </trans-unit>
+            <trans-unit id="plugin.legaltexts.label">
+                <target>IT-Recht Kanzlei - Rechtstexte</target>
+            </trans-unit>
+            <trans-unit id="plugin.api.label">
+                <target>IT-Recht Kanzlei - Api (intern)</target>
+            </trans-unit>
+
+            <trans-unit id="type.agb">
+                <target>AGB</target>
+            </trans-unit>
+            <trans-unit id="type.widerruf">
+                <target>Widerruf</target>
+            </trans-unit>
+            <trans-unit id="type.datenschutz">
+                <target>Datenschutz</target>
+            </trans-unit>
+            <trans-unit id="type.impressum">
+                <target>Impressum</target>
+            </trans-unit>
+
+            <trans-unit id="conf.api.username">
+                <target>API Benutzerkennung</target>
+            </trans-unit>
+            <trans-unit id="conf.api.password">
+                <target>API Passwort</target>
+            </trans-unit>
+            <trans-unit id="conf.uploadfolder">
+                <target>Upload-Ordner</target>
+            </trans-unit>
+
+            <!-- Legal text model -->
+            <trans-unit id="tx_itrklegaltextstypo3_domain_model_legal_text">
+                <target>Rechtstexte</target>
+            </trans-unit>
+            <trans-unit id="tx_itrklegaltextstypo3_domain_model_legal_text.user_account_id">
+                <target>Account Id</target>
+            </trans-unit>
+            <trans-unit id="tx_itrklegaltextstypo3_domain_model_legal_text.type">
+                <target>Typ</target>
+            </trans-unit>
+            <trans-unit id="tx_itrklegaltextstypo3_domain_model_legal_text.text">
+                <target>Text</target>
+            </trans-unit>
+            <trans-unit id="tx_itrklegaltextstypo3_domain_model_legal_text.html">
+                <target>Html</target>
+            </trans-unit>
+            <trans-unit id="tx_itrklegaltextstypo3_domain_model_legal_text.pdf_url">
+                <target>PDF-URL</target>
+            </trans-unit>
+            <trans-unit id="tx_itrklegaltextstypo3_domain_model_legal_text.country">
+                <target>Lang</target>
+            </trans-unit>
+            <trans-unit id="tx_itrklegaltextstypo3_domain_model_legal_text.language">
+                <target>Sprache</target>
+            </trans-unit>
+
+            <!-- New content element wizard -->
+            <trans-unit id="tx_itkanzlei_newcontentelementwizard.title">
+                <target>Rechtstext</target>
+            </trans-unit>
+            <trans-unit id="tx_itkanzlei_newcontentelementwizard.description">
+                <target>Plugin um einen Rechtstext darzustellen.</target>
+            </trans-unit>
+
+            <!-- Flex form -->
+            <trans-unit id="tx_itkanzlei_flexform.title_general">
+                <target>Generel</target>
+            </trans-unit>
+            <trans-unit id="tx_itkanzlei_flexform.rechtstext_type">
+                <target>Typ</target>
+            </trans-unit>
+            <trans-unit id="tx_itkanzlei_flexform.sys_language_uid">
+                <target>Sprache (leer lassen, um die aktuelle Sprache zu verwenden)</target>
+            </trans-unit>
+            <trans-unit id="tx_itkanzlei_flexform.show_text">
+                <target>Zeige Text</target>
+            </trans-unit>
+            <trans-unit id="tx_itkanzlei_flexform.show_html">
+                <target>Zeige HTML</target>
+            </trans-unit>
+            <trans-unit id="tx_itkanzlei_flexform.show_pdf_link">
+                <target>Zeige PDF Link</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

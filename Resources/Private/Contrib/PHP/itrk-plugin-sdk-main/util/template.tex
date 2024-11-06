@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[ngerman]{babel}
+\usepackage{etoolbox}
+\usepackage{lastpage}
+\usepackage{titling}
+\usepackage{upquote}
+
+\predate{}
+\postdate{}
+\date{}
+
+\pretitle{%
+  \begin{center}
+  \LARGE
+  \includegraphics[height=2cm]{util/Logo}\\[\bigskipamount]
+}
+\posttitle{\end{center}}
+\setlength{\droptitle}{-10em}
+
+\providecommand{\tightlist}{
+    \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\pagestyle{fancy}
+\usepackage[a4paper, left=2.5cm, right=2.5cm, top=3cm, bottom=4cm]{geometry}
+
+\usepackage{listings}
+
+\fancypagestyle{itrkfooter}{
+  \fancyhf{}
+  \fancyfoot[L]{\today}
+  \fancyfoot[C]{Copyright © IT-Recht Kanzlei}
+  \fancyfoot[R]{\thepage \hspace{1pt} von \pageref*{LastPage}}
+}
+\fancypagestyle{itrkdoc}{
+  \fancyhf{}
+  \pagestyle{itrkfooter}
+  \setlength{\headheight}{2cm}
+  \fancyhead[L]{\includegraphics[height=1.5cm]{util/Logo}}
+}
+\pagestyle{itrkdoc}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\newcommand{\passthrough}[1]{\lstset{mathescape=false}#1\lstset{mathescape=true}}
+
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\lstset{basicstyle=\small\ttfamily, basewidth=0.5em}
+\lstset{breaklines=true}
+\lstset{backgroundcolor=\color{black!10}}
+\lstset{
+    framexleftmargin=5pt,
+    xleftmargin=5pt,
+}
+
+\BeforeBeginEnvironment{lstlisting}{\par\noindent\begin{minipage}{\linewidth}}
+\AfterEndEnvironment{lstlisting}{\end{minipage}\par\addvspace{\topskip}}
+
+\title{$pagetitle$}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{itrkfooter}
+
+$body$
+
+\end{document}

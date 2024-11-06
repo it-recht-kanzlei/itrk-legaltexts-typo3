@@ -1,0 +1,44 @@
+{
+  "name": "it-recht-kanzlei/itrk-legaltexts-typo3",
+  "type": "typo3-cms-extension",
+  "description": "A TYPO3 extension that integrates legally compliant documents, such as terms and conditions or privacy policies, directly into your TYPO3 site from the IT-Recht Kanzlei service. This extension requires an active IT-Recht Kanzlei subscription to receive the latest legal texts automatically pushed and updated within TYPO3.",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "IT-Recht Kanzlei",
+    "legal texts",
+    "Rechtstexte"
+  ],
+  "homepage": "https://www.it-recht-kanzlei.de/",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=7.4.0 <8.5",
+    "typo3/cms-core": ">=10.4.0,<13.5",
+    "ext-json": "*",
+    "ext-openssl": "*"
+  },
+  "authors": [
+    {
+      "name": "IT-Recht Kanzlei",
+      "role": "Developer",
+      "homepage": "https://www.it-recht-kanzlei.de/"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/it-recht-kanzlei/itrk-legaltexts-typo3/issues",
+    "source": "https://github.com/it-recht-kanzlei/itrk-legaltexts-typo3"
+  },
+  "autoload": {
+    "psr-4": {
+      "ItRechtKanzlei\\LegalText\\Plugin\\Typo3\\": "Classes"
+    }
+  },
+  "replace": {
+    "typo3-ter/itrk_legaltexts_typo3": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "itrk_legaltexts_typo3"
+    }
+  }
+}

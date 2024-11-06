@@ -1,0 +1,24 @@
+<f:layout name="Default"/>
+<f:section name="main">
+    <f:if condition="{legalText}">
+        <div class="legaltext {legalText.type}">
+            <f:if condition="{settings.showText}">
+                <div class="legaltext-text">
+                    <f:format.nl2br>{legalText.text}</f:format.nl2br>
+                </div>
+            </f:if>
+            <f:if condition="{settings.showHtml}">
+                <div class="legaltext-text-html">
+                    <f:format.raw>{legalText.html}</f:format.raw>
+                </div>
+            </f:if>
+            <f:if condition="{settings.showPdfLink} && {legalText.publicPdfUrl}">
+                <div class="legalText-pdf-link">
+                    <a href="{legalText.publicPdfUrl}" download>
+                        <f:translate key="tx_itkanzlei_flexform.downlad_pdf_{legalText.type}"/>
+                    </a>
+                </div>
+            </f:if>
+        </div>
+    </f:if>
+</f:section>

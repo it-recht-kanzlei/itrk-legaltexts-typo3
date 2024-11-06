@@ -1,0 +1,16 @@
+mod.wizards.newContentElement.wizardItems {
+	plugins {
+		elements {
+			itrklegaltextstypo3_legaltext {
+				title = LLL:EXT:itrk_legaltexts_typo3/Resources/Private/Language/locallang_be.xlf:tx_itkanzlei_newcontentelementwizard.title
+				description = LLL:EXT:itrk_legaltexts_typo3/Resources/Private/Language/locallang_be.xlf:tx_itkanzlei_newcontentelementwizard.description
+				iconIdentifier = icon-content-plugin-it-recht-kanzlei-legaltext
+				tt_content_defValues {
+					CType = list
+					list_type = itrklegaltextstypo3_legaltext
+				}
+			}
+		}
+		removeItems := addToList(itrklegaltextstypo3_api)
+	}
+}

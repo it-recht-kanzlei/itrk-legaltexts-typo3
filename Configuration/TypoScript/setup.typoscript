@@ -1,0 +1,37 @@
+plugin.tx_itrklegaltextstypo3 {
+  view {
+    templateRootPaths.0 = EXT:itrk_legaltexts_typo3/Resources/Private/Templates/
+    partialRootPaths.0 = EXT:itrk_legaltexts_typo3/Resources/Private/Partials/
+    layoutRootPaths.0 = EXT:itrk_legaltexts_typo3/Resources/Private/Layouts/
+  }
+
+  persistence {
+    storagePid.cObject = TEXT
+    storagePid.cObject.data = site:itrkLegalTextStorage
+  }
+}
+
+# API-Definition
+itrkLegalTextApiRequest = PAGE
+itrkLegalTextApiRequest {
+  typeNum = 1462536424
+  config {
+    disableAllHeaderCode = 1
+    additionalHeaders = Content-Type: application/xml
+    xhtml_cleaning = 0
+    admPanel = 0
+    no_cache = 1
+    debug = 0
+  }
+
+  10 = USER_INT
+  10 {
+    userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+    extensionName = ItrkLegaltextsTypo3
+    pluginKey = Api
+    pluginName = Api
+    vendorName = ItRechtKanzlei
+    controller = Api
+    action = request
+  }
+}

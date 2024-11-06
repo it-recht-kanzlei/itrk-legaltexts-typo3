@@ -1,0 +1,6 @@
+# cat=Basic; type=string; label=LLL:EXT:itrk_legaltexts_typo3/Resources/Private/Language/locallang_be.xlf:conf.api.username
+api.username =
+# cat=Basic; type=string; label=LLL:EXT:itrk_legaltexts_typo3/Resources/Private/Language/locallang_be.xlf:conf.api.password
+api.password =
+# cat=Basic; type=string; label=LLL:EXT:itrk_legaltexts_typo3/Resources/Private/Language/locallang_be.xlf:conf.uploadfolder
+fileStoragePath = uploads/tx_itrk_legaltexts_typo3/
