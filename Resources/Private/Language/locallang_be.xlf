@@ -8,7 +8,7 @@
                 <source>Legal Texts</source>
             </trans-unit>
             <trans-unit id="site.itrkLegalTextStorage">
-                <source>Storage page id for legal texts</source>
+                <source>Storage id for legal texts</source>
             </trans-unit>
             <trans-unit id="plugin.legaltexts.label">
                 <source>IT-Recht Kanzlei - Legal Texts</source>
@@ -55,7 +55,7 @@
                 <source>Text</source>
             </trans-unit>
             <trans-unit id="tx_itrklegaltextstypo3_domain_model_legal_text.html">
-                <source>Html</source>
+                <source>HTML</source>
             </trans-unit>
             <trans-unit id="tx_itrklegaltextstypo3_domain_model_legal_text.pdf_url">
                 <source>PDF Url</source>

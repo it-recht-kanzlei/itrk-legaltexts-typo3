@@ -3,16 +3,16 @@
 	<file source-language="en" datatype="plaintext" date="2024-10-28T13:54:09Z" product-name="itrk_legaltexts_typo3">
 		<header/>
 		<body>
-			<trans-unit id="tx_itkanzlei_flexform.downlad_pdf_agb">
-				<source>Download GTA</source>
+			<trans-unit id="tx_itkanzlei_flexform.download_pdf_agb">
+				<source>Download GTC</source>
 			</trans-unit>
-			<trans-unit id="tx_itkanzlei_flexform.downlad_pdf_datenschutz">
+			<trans-unit id="tx_itkanzlei_flexform.download_pdf_datenschutz">
 				<source>Download privacy policy</source>
 			</trans-unit>
-			<trans-unit id="tx_itkanzlei_flexform.downlad_pdf_widerruf">
+			<trans-unit id="tx_itkanzlei_flexform.download_pdf_widerruf">
 				<source>Download cancellation policy</source>
 			</trans-unit>
-			<trans-unit id="tx_itkanzlei_flexform.downlad_pdf_impressum">
+			<trans-unit id="tx_itkanzlei_flexform.download_pdf_impressum">
 				<source>Download legal notice</source>
 			</trans-unit>
 		</body>

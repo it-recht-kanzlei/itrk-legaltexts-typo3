@@ -3,16 +3,16 @@
 	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2024-10-28T13:54:09Z" product-name="itrk_legaltexts_typo3">
 		<header/>
 		<body>
-			<trans-unit id="tx_itkanzlei_flexform.downlad_pdf_agb">
+			<trans-unit id="tx_itkanzlei_flexform.download_pdf_agb">
 				<target>AGB herunterladen</target>
 			</trans-unit>
-			<trans-unit id="tx_itkanzlei_flexform.downlad_pdf_datenschutz">
-				<target>Datenschutz herunterladen</target>
+			<trans-unit id="tx_itkanzlei_flexform.download_pdf_datenschutz">
+				<target>Datenschutzerklärung herunterladen</target>
 			</trans-unit>
-			<trans-unit id="tx_itkanzlei_flexform.downlad_pdf_widerruf">
-				<target>Widerruf herunterladen</target>
+			<trans-unit id="tx_itkanzlei_flexform.download_pdf_widerruf">
+				<target>Widerrufsbelehrung herunterladen</target>
 			</trans-unit>
-			<trans-unit id="tx_itkanzlei_flexform.downlad_pdf_impressum">
+			<trans-unit id="tx_itkanzlei_flexform.download_pdf_impressum">
 				<target>Impressum herunterladen</target>
 			</trans-unit>
 		</body>
