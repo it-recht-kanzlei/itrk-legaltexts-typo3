@@ -81,7 +81,7 @@ class ItemsProcFunc
 
     protected function getPid(array $config): int
     {
-        if ($config['effectivePid'] > 0) {
+        if (($config['effectivePid'] ?? 0) > 0) {
             return (int)$config['effectivePid'];
         }
         if (intval($config['row']['pid'] ?? 0) > 0) {

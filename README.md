@@ -4,11 +4,13 @@ This extension allows you to easily integrate legal texts into your TYPO3 site.
 
 The texts are provided through IT-Recht Kanzlei. An active subscription is required to utilize this feature.
 
+For detailed information in German, please visit the [German version of the documentation.](https://www.it-recht-kanzlei.de/handlungsanleitung-rechtstexte-typo3-schnittstelle.html)
+
 ## Installation
 
 1. Install the extension. ```composer require it-recht-kanzlei/itrk-legaltexts-typo3```
 2. [Include the `itrk_legaltexts_typo3` TypoScript.](Resources/Private/Documentation/typoscript.png)
-3. [Insert "Legal Text" frontend plugin on the relevant pages.](Resources/Private/Documentation/typoscript.png)
+3. [Insert "Legal Text" frontend plugin on the relevant pages.](Resources/Private/Documentation/plugin.png)
 
 ## Configuration
 
